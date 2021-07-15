@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+#pip install discord-buttons-plugin
 from discord_buttons_plugin import *
 
 bot = commands.Bot(command_prefix = "m!")
