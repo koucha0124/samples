@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-#pip install rwquests
+#pip install requests
 import requests
 
 @bot.event
