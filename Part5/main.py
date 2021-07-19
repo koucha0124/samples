@@ -2,7 +2,8 @@ import discord
 from discord.ext import commands
 #pip install discord-buttons-plugin
 from discord_buttons_plugin import *
-
+#pip install requests
+import requests
 bot = commands.Bot(command_prefix = "m!")
 buttons = ButtonsClient(bot)
 
