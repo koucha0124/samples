@@ -3,6 +3,10 @@ from discord.ext import commands
 #pip install rwquests
 import requests
 
+@bot.event
+async def on_ready():
+	print("準備完了")
+    
 @bot.command()
 async def trans(ctx, *, msg):
     trans_now = await ctx.send("日本語から英語に翻訳中です...")
