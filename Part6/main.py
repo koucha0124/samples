@@ -10,7 +10,7 @@ async def on_ready():
 @bot.command()
 async def trans(ctx, *, msg):
     trans_now = await ctx.send("日本語から英語に翻訳中です...")
-    api_key = "ffaa0bf1-9daa-3c71-efa9-8061590ba037:fx"
+    api_key = "Your_API_Key"
     params = {
                 "auth_key": api_key,
                 "text": str(msg),
