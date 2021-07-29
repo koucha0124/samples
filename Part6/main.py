@@ -3,6 +3,8 @@ from discord.ext import commands
 #pip install requests
 import requests
 
+bot = commands.Bot(command_prefix = "m!")
+
 @bot.event
 async def on_ready():
 	print("準備完了")
