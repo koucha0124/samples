@@ -4,7 +4,8 @@ from discord.ext import commands
 from discord_buttons_plugin import *
 #pip install requests
 import requests
-bot = commands.Bot(command_prefix = "m!")
+
+bot = commands.Bot(command_prefix = "m!", intents=discord.Intents.all())
 buttons = ButtonsClient(bot)
 
 @bot.event
