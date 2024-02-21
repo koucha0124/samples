@@ -3,7 +3,7 @@ from discord.ext import commands
 #pip install requests
 import requests
 
-bot = commands.Bot(command_prefix = "m!")
+bot = commands.Bot(command_prefix = "m!", intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
